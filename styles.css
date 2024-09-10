@@ -1,0 +1,86 @@
+
+body {
+    background-image: url('annie-spratt-6SHd7Q-l1UQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+
+.container {
+    align-items: end;
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 800px;
+    text-align: right;
+}
+
+
+.heading {
+    margin-top: 50px;
+    font-size: 3em;
+    font-style: oblique;
+    color: #fbfcfd;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Subtle shadow for better visibility */
+}
+
+
+.button, .b2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    display: inline-block;
+    margin: 15px 0;
+    padding: 12px 25px;
+    color: white;
+    background: linear-gradient(135deg, #a1a9c8, #838ffa); /* Soft gradient background */
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for buttons */
+    transition: all 0.3s ease;
+}
+
+
+.button:hover, .b2:hover {
+    background: linear-gradient(135deg, #838ffa, #a1a9c8); /* Gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.audio-container {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.audio {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 600px) {
+    .heading {
+        margin-top: 100px;
+        font-size: 2em;
+    }
+
+    .button, .b2 {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .audio {
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: #f2f7ff; 
+    font-family: 'Arial', sans-serif;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.slides-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color:#007bff; 
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.5); 
+}
+
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff8f0; 
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+marquee img {
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+marquee img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3); /* Subtle pink glow on hover */
+}
+
+
